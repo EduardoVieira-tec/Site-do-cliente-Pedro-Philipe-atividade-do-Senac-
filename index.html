@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+    <title>Viagens.com</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>VIAGENS<span>.COM</span></h1>
+
+        <nav class="seções">
+            <a href="#inicio">Início</a>
+            <a href="#destinos">Destinos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="botões">
+            <button>Entrar</button>
+            <button>Cadastrar-se</button>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- ===== INÍCIO ===== -->
+
+        <section id="inicio">
+
+            <div class="banner">
+
+                <img
+                    src="/Imagens/333.jpg"
+                    alt="Foto da Praia">
+
+                <!-- TEXTO SOBRE A IMAGEM -->
+
+                <div class="conteudo-banner">
+
+                    <h2 class="texto-inicio">
+                        O Brasil é incrível. <br>
+                        A sua próxima viagem começa aqui.
+                    </h2>
+
+                    <p>
+                        Descubra destinos fascinantes e viva experiências
+                        inesquecíveis pelo nosso país.
+                    </p>
+
+                    <!-- BOTÃO EXPLORAR -->
+                    <button id="explorar">
+                        Explorar destinos
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- BARRA DE PESQUISA -->
+
+            <div class="barra-perguntas">
+
+                <p>
+                    <label for="onde-está-saindo">
+                        De onde você está saindo?
+                    </label>
+
+                    <input type="text" id="onde-está-saindo">
+                </p>
+
+                <p>
+                    <label for="para-onde-vai">
+                        Para onde você vai?
+                    </label>
+
+                    <input type="text" id="para-onde-vai">
+                </p>
+
+                <p>
+                    <label for="ida">
+                        Ida
+                    </label>
+
+                    <input type="date" id="ida">
+                </p>
+
+                <p>
+                    <label for="volta">
+                        Volta
+                    </label>
+
+                    <input type="date" id="volta">
+                </p>
+
+                <p>
+                    <label for="quem-vai-viajar">
+                        Quem vai viajar?
+                    </label>
+
+                    <input type="text" id="quem-vai-viajar">
+                </p>
+
+                <button class="botão-barra-perguntas">
+                    Buscar
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===== DESTINOS ===== -->
+
+        <h2>Destinos em destaque</h2>
+
+        <p class="texto-do-destino">
+            Conheça lugares incríveis pelo Brasil
+        </p>
+
+        <section id="destinos">
+
+            <div class="card-destino">
+
+                <img
+                    src="/Imagens/marco-zero.jpg"
+                    alt="Imagem do Recife">
+
+                <div class="texto-destino">
+
+                    <h3>Recife-PE</h3>
+
+                    <p>
+                        Conheça a capital pernambucana, famosa por suas pontes,
+                        cultura vibrante e belas praias urbanas.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card-destino">
+
+                <img
+                    src="/Imagens/praia-maragogi.jpg"
+                    alt="Praia de Maragogi">
+
+                <div class="texto-destino">
+
+                    <h3>Maragogi-AL</h3>
+
+                    <p>
+                        Explore as famosas piscinas naturais de águas cristalinas
+                        e aproveite um dos destinos mais paradisíacos do Brasil.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card-destino">
+
+                <img
+                    src="/Imagens/praia-pipa.jpg"
+                    alt="Praia de Pipa">
+
+                <div class="texto-destino">
+
+                    <h3>Pipa-RN</h3>
+
+                    <p>
+                        Encante-se com falésias, praias deslumbrantes e a
+                        possibilidade de observar golfinhos em seu habitat natural.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="card-destino">
+
+                <img
+                    src="/Imagens/garanhuns.jpg"
+                    alt="Garanhuns-PE">
+
+                <div class="texto-destino">
+
+                    <h3>Garanhuns-PE</h3>
+
+                    <p>
+                        Descubra o clima agradável da Serra da Borborema,
+                        jardins encantadores e eventos culturais tradicionais.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ===== SOBRE / DADOS ===== -->
+
+        <div id="sobre">
+
+            <section>
+
+                <h3>Compra segura</h3>
+
+                <p>
+                    Seus dados protegidos do início até o fim.
+                </p>
+
+            </section>
+
+
+            <section>
+
+                <h3>Melhores preços</h3>
+
+                <p>
+                    Compre e encontre as melhores ofertas.
+                </p>
+
+            </section>
+
+
+            <section>
+
+                <h3>Atendimento 24h</h3>
+
+                <p>
+                    Suporte sempre que você precisar.
+                </p>
+
+            </section>
+
+
+            <section>
+
+                <h3>Brasil inteiro</h3>
+
+                <p>
+                    Destinos em todos os cantos do país.
+                </p>
+
+            </section>
+
+        </div>
+
+    </main>
+
+
+    <!-- ===== RODAPÉ ===== -->
+
+    <footer id="contato">
+
+        <p>
+            &copy; 2026 Viagens.com
+        </p>
+
+        <p>
+            E-mail: eduardovsfilho@gmail.com
+        </p>
+
+        <p class="links">
+
+            <a
+                class="link-social"
+                href="https://github.com/EduardoVieira-tec?tab=repositories">
+                Github
+            </a>
+
+            <a
+                class="link-social"
+                href="https://www.linkedin.com/in/eduardo-vieira-737712400/">
+                Linkedin
+            </a>
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
